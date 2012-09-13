@@ -1,0 +1,44 @@
+#page_front
+{
+   padding: 0;
+   margin:0;
+   min-width: 1400px;
+   min-height: 1125px;
+   color: #0F1419;
+   background-color: #B2C2D1;
+   background-image: url(../images/front.png);
+}
+ 
+#page_content
+{
+   padding: 0;
+   margin:0;
+   min-width: 1400px;
+   min-height: 1500px;
+   color: #0F1419;
+   background-color: #B2C2D1;
+   background-image: url(../images/page_content.png);
+}
+
+#menu ul {
+margin: 0px;
+padding: 0px;
+list-style:none;
+width:190px;
+position: absolute;
+top: 400px;
+left: 300px;
+}
+
+#menu  ul li {
+
+}
+
+#menu ul li a {
+  display: block;
+  text-decoration: none;
+} 
+
+#menu li:hover  a {
+}
+ 

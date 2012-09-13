@@ -85,11 +85,8 @@
  * @see html.tpl.php
  */
 ?>
-<div id="page-wrapper"><div id="page_content" class="page_front">
-                rrqwwer
-werwe
-werr
-<br/>
+<div id="page-wrapper"><div id="page_front" class="page_content">
+
 
 <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="column sidebar"><div class="section">
@@ -98,20 +95,22 @@ werr
     <?php endif; ?>
 	
 <?php if ($main_menu): ?>
-      <div id="main-menu" class="navigation">
+      <div id="menu" class="navigation1">
         <?php print theme('links__system_main_menu', array(
           'links' => $main_menu,
           'attributes' => array(
-            'id' => 'main-menu-links',
-            'class' => array('links', 'clearfix'),
+            'id' => 'main-menu-links1',
+            'class' => array('links1', 'clearfix1'),
           ),
           'heading' => array(
             'text' => t('Main menu'),
             'level' => 'h2',
-            'class' => array('element-invisible'),
+            'class' => array('element-invisible1'),
           ),
         )); ?>
       </div> <!-- /#main-menu -->
     <?php endif; ?>
+
+
 
 </div></div> <!-- /#page, /#page-wrapper -->
