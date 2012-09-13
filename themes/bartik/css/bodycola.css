@@ -19,7 +19,7 @@
    background-color: #B2C2D1;
    background-image: url(../images/page_content.png);
 }
-
+/*Main menu*/
 #menu ul {
 margin: 0px;
 padding: 0px;
@@ -42,3 +42,30 @@ left: 300px;
 #menu li:hover  a {
 }
  
+
+
+
+/*uslugi*/
+#uslugi ul {
+margin: 0px;
+padding: 0px;
+list-style:none;
+width:190px;
+position: absolute;
+top: 500px;
+left: 1000px;
+}
+
+#uslugi  ul li {
+
+}
+
+#uslugi ul li a {
+  display: block;
+  text-decoration: none;
+} 
+
+#uslugi li:hover  a {
+}
+ 
+

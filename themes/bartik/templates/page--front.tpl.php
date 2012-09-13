@@ -93,7 +93,18 @@
         <?php print render($page['sidebar_first']); ?>
       </div></div> <!-- /.section, /#sidebar-first -->
     <?php endif; ?>
-	
+
+                
+
+   
+
+<div id="uslugi" >
+	<?php $tree = menu_tree('menu-rrr');  echo render($tree); ?>
+</div>	
+
+
+
+
 <?php if ($main_menu): ?>
       <div id="menu" class="navigation1">
         <?php print theme('links__system_main_menu', array(
