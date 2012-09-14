@@ -113,11 +113,6 @@
             'id' => 'main-menu-links1',
             'class' => array('links1', 'clearfix1'),
           ),
-          'heading' => array(
-            'text' => t('Main menu'),
-            'level' => 'h2',
-            'class' => array('element-invisible1'),
-          ),
         )); ?>
       </div> <!-- /#main-menu -->
     <?php endif; ?>
