@@ -69,3 +69,20 @@ left: 1000px;
 }
  
 
+
+#content_wrapper {
+		clear: both;
+		position:relative;
+	
+}
+#content_node {
+	position: absolute;
+	top: 380px;
+	left: 550px;
+	width: 620px;
+    border: 4px double black; /* Параметры границы */
+}
+.lay {
+	width: 100px;
+    border: 4px double black; /* Параметры границы */
+}

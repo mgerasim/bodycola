@@ -100,6 +100,9 @@
       </div> <!-- /#main-menu -->
     <?php endif; ?>
 
-<?php print render($page['content']); ?>
-
+<div id="content_wrapper">
+<div id="content_node">
+	<?php print render($page['content']); ?>
+</div>
+</div>
 </div></div> <!-- /#page, /#page-wrapper -->
