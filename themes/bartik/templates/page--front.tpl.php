@@ -88,14 +88,6 @@
 <div id="page-wrapper"><div id="page_front" class="page_content">
 
 
-<?php if ($page['sidebar_first']): ?>
-      <div id="sidebar-first" class="column sidebar"><div class="section">
-        <?php print render($page['sidebar_first']); ?>
-      </div></div> <!-- /.section, /#sidebar-first -->
-    <?php endif; ?>
-
-                
-
    
 
 <div id="uslugi" >

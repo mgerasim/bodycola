@@ -80,9 +80,21 @@ left: 1000px;
 	top: 380px;
 	left: 550px;
 	width: 620px;
+	height: 750px;
     border: 4px double black; /* Параметры границы */
 }
 .lay {
 	width: 100px;
     border: 4px double black; /* Параметры границы */
 }
+
+div.inner {
+}
+
+div.outer {
+height: 750px;
+overflow-y: scroll;
+overflow-x: scroll;
+}
+
+

@@ -102,7 +102,15 @@
 
 <div id="content_wrapper">
 <div id="content_node">
+	
+	<div class="outer">
+<div class="inner">
+	
 	<?php print render($page['content']); ?>
+	
+	</div>
+	</div>
+	
 </div>
 </div>
 </div></div> <!-- /#page, /#page-wrapper -->
